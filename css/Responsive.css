@@ -1,0 +1,114 @@
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #Rw-Name > div:nth-child(2) {
+        height: 120px;
+    }
+
+    .texto-contacto {
+        margin-left:30px;
+        margin-top: 30px;
+        height: auto;
+    }
+    .lista-skills-referencias {
+        width: 100%;
+    }
+    .box-section-proyectos article {
+        width: 45%;
+    }
+    .box-img-proyect {
+        height: 73.200px;
+    }
+    .texto-contacto {
+        margin-top: 0px;
+    }
+    .texto-contacto p {
+        font-size: 12px;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #Rw-Name > div:nth-child(2) {
+        height: 150px;
+    }
+        #Rw-Name > div:nth-child(2) > p:nth-child(1), #Rw-Name > div:nth-child(2) > p:nth-child(2) {
+            text-align: left;
+        }
+    .lista-skills-referencias {
+        width: 100%;
+    }
+    .card {
+        height: 216px;
+        margin-top:50px;
+    }
+    .box-img-proyect {
+        height: 73.200px;
+    }
+    .texto-contacto {
+        margin-left: 30px;
+        margin-top: 0px;
+        height: 216.400px;
+    }
+    .box-section-proyectos article {
+        width: 45%;
+    }
+    .texto-contacto p {
+        font-size: 13px;
+    }
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    #Rw-Name > div:nth-child(2) {
+        height: 150px;
+    }
+        #Rw-Name > div:nth-child(2) > p:nth-child(1), #Rw-Name > div:nth-child(2) > p:nth-child(2) {
+            text-align: left;
+        }
+    .lista-skills-referencias {
+        width: 100%;
+    }
+    .box-section-proyectos article {
+        width: 45%;
+    }
+    .box-img-proyect {
+        height: 73.200px;
+    }
+    .card {
+        height: 216px;
+    }
+    .texto-contacto {
+        margin-left: 30px;
+        margin-top: 0px;
+        height: 216.400px;
+    }
+        .texto-contacto p {
+            font-size: 14px;
+        }
+}
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+    #Rw-Name > div:nth-child(2) {
+        height: 150px;
+    }
+    .lista-skills-referencias {
+        width: 100%;
+    }
+    .box-img-proyect {
+        height: 73.200px;
+    }
+    .box-section-proyectos article {
+        width: 45%;
+    }
+    .card {
+        height: 216px;
+    }
+    .texto-contacto {
+        margin-left: 30px;
+        margin-top: 0px;
+        height: 216.400px;
+    }
+        .texto-contacto p {
+            font-size: 16px;
+        }
+}

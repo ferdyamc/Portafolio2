@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link type="text/css" href="bootstrap-5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/Site.css"/>
+    <link rel="stylesheet" type="text/css" href="css/Responsive.css">
+    <script src="https://kit.fontawesome.com/9ffe67f035.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="padding-top:49.950px">
+    <!--Header-->
+    <header class="position-fixed col-12 top-0" style="z-index:2;">
+        <div class="row">
+            <div class="col p-0"></div>
+            <div class="col-lg-5 col-md-6 col-sm-12 p-0">
+                <nav class="Menu-navegacion">
+                    <ul class="Menu-opciones d-flex row justify-content-between p-0 m-0">
+                        <li class="Menu-opcion text-center"><a href="#" class="text-dark">Sobre mí</a></li>
+                        <li class="Menu-opcion text-center"><a href="#Section-proyectos" class="text-dark">Proyectos</a></li>
+                        <li class="Menu-opcion text-center"><a href="#Section-Experiencia" class="text-dark">Experiencia</a></li>
+                        <li class="Menu-opcion text-center"><a href="#Section-Contacto" class="text-dark">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <div class="container">
+        <main role="main" class="pb-3 position-relative">
+            <!--Sobre mí : Imagen, Nombre, Profesion-->
+            <div class="row" id="Rw-Name">
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5" id="Rw-Name">
+                    <div id="Img-perfil" class="rounded-circle">
+                        <img src="Recursos/Img/alex.jpg" style="width:200px;height:300px;" class="rounded-2" />
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 mt-lg-5 d-flex position-relative">
+                        <p class="position-absolute">Alex Rojas Muñoz</p>
+                        <p class="position-absolute">Desarrolladora de Software, Medellín Co.</p>
+                </div>
+            </div>
+            
+            <!--Sobre mí : Parrafo-->
+            <div class="row Rw-parrafo">
+                <div class="col-lg-9 offset-lg-3 col-md-12 col-md-0 col-sm-12 col-sm-0">
+                    <p class="col-12" id="parrafo-sobreMi"> 
+                        Descripción...
+                        <br />
+                        <br />
+                        En mi experiencia laboral...
+                        <br />
+                        <br />
+                        Mas texto sobre mí...         
+                    </p>
+                    <div class="box-btn d-flex justify-content-lg-start justify-content-md-center justify-content-sm-center jus"><button class="d-block mb-3" id="leerMasDesc">Leer más</button></div>
+                </div>
+            </div>
+            
+            <!--Banner Skills-->
+            <div class="row">
+                <div class="col-lg-9 offset-lg-3 col-md-12 offset-md-0 col-sm-12 offset-sm-0">
+                    <ul class="list-works-op bg-dark rounded-2 d-flex position-relative p-0" style="height:50px;width:100%">
+                        <li style="width:10%"><i class="fa-solid fa-code text-center" style="color: #f81616; font-size:20px;"></i></li>
+                        <li style="width:10%"> <i class="fa-solid fa-pen-nib text-center" style="color: #ffba24; font-size:20px;"></i></li>
+                        <li style="width:10%"><i class="fa-solid fa-photo-film text-center" style="color: #00ff40;font-size:20px;"></i></li>
+                    </ul>
+                    <hr class="mt-5 mb-5" style="color:#D9D9D9" />
+                </div>
+            </div>
+            
+            <!--Skills-->
+            <div class="row">
+                <div class="col-lg-9 offset-lg-3 col-md-12 offset-md-0 col-sm-12 offset-sm-0 ">
+                    <h2 style="font-size:16px;" class="mb-3">Skills</h2>
+                    <article class="rounded-2" style="height:150px;width:100%">
+                        <ul style="width:300%;height:100%;padding:0!important;" class="d-flex row lista-skills">
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-html.png" />
+                                <div style="width:10px;height:10px;" class="bg-danger rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class=" rounded-pill"></div>
+                                <p class="text-dark">Avanzado</p>
+                            </li>
+                         <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-css3.png" />
+                                <div style="width:10px;height:10px;" class="bg-danger rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class="rounded-pill"></div>
+                                <p class="text-dark">Avanzado</p>
+                            </li>
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-javascript.png" />
+                                <div style="width:10px;height:10px;" class="bg-warning rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class="rounded-pill"></div>
+                                <p class="text-dark">Intermedio</p>
+                            </li>
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/azure.png" />
+                                <div style="width:10px;height:10px;" class="bg-success rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class="rounded-pill"></div>
+                                <p class="text-dark">Basico</p>
+                            </li>
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-bootstrap.png" />
+                                <div style="width:10px;height:10px;" class="bg-success rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class="rounded-pill"></div>
+                                <p class="text-dark">Avanzado</p>
+                            </li>
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-jquery.png" />
+                                <div style="width:10px;height:10px;" class="bg-success rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class="rounded-pill"></div>
+                                <p class="text-dark">Intermedio</p>
+                            </li>
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-csharp.png" />
+                                <div style="width:10px;height:10px;" class="bg-success rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class="rounded-pill"></div>
+                                <p class="text-dark">Intermedio</p>
+                            </li>
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-php.png" />
+                                <div style="width:10px;height:10px;" class="bg-success rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class="rounded-pill"></div>
+                                <p class="text-dark">Basico</p>
+                            </li>
+                            <li style="height:100%;width:8%;" class="d-flex flex-column justify-content-center">
+                                <img class="Img-Skill col-12" style="height:60px;width:60px;" src="Recursos/Img/logo-sqlserver.png" />
+                                <div style="width:10px;height:10px;" class="bg-success rounded-circle"></div>
+                                <div style="width:70%;height:10px;background:whitesmoke;" class=" rounded-pill"></div>
+                                <p class="text-dark">Intermedio</p>
+                            </li>
+                        </ul>
+                    </article>
+                    <ul style="height:40px;" class="bg-dark lista-skills-referencias mb-0 mt-3 d-flex flex-row justify-content-center">
+                        <li class="d-flex flex-row justify-content-center" >
+                            <div style="width:10px;height:10px;" class="bg-danger rounded-circle me-2"></div>
+                            <p class="text-light m-0">Desarrollo</p>
+                        </li>
+                        <li class="d-flex flex-row justify-content-center" >
+                            <div style="width:10px;height:10px;" class="bg-warning rounded-circle  me-2"></div>
+                            <p class="text-light m-0">Diseño</p>
+                        </li>
+                        <li class="d-flex flex-row justify-content-center" >
+                            <div style="width:10px;height:10px;" class="bg-success rounded-circle  me-2"></div>
+                            <p class="text-light m-0">Multimedia</p>
+                        </li>
+                    </ul>
+                    <hr class="col-12 mt-0"/>
+                    <hr class="" style="color:#D9D9D9" id="Section-proyectos"/>
+                </div>
+            </div>
+            
+            <!--Proyectos-->
+            <div class="row" >
+                <div class="col-lg-9 offset-lg-3 col-md-12 offset-md-0 col-sm-12 offset-sm-0 ">
+                    <h2 style="font-size:16px;" class="mb-3">Proyectos</h2>
+                    <section class="rounded-2 d-flex flex-wrap mb-3 box-section-proyectos">
+                        <article class="rounded-2 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Punto de venta WPF</h5>
+                                        <p class="card-text">Proyecto WPF de un punto de ventas basico con el patron de arquitectura N-capas.</p>
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-5 col-sm-12 mt-3">
+                                                <a href="https://github.com/ferdyamc/Punto-de-ventas---N-capas" class="btn btn-dark" target="_blank">GitHub</a>
+                                                <button class="btn btn-info d-block mt-2 ver-mas"><i class="fa-regular fa-eye text-light"></i></button>
+                                            </div>
+                                            <div class="col-lg-7 col-md-7 co-lsm-12  mt-3 mt-lg-3 mt-md-2 mt-sm-2 box-img-proyect">
+                                            <img src="Recursos/Img/PuntoDeVenta.jpg" class="img-proyect" width="100%" height="100%"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </article>
+                        <article class="rounded-2 mb-3">
+                            <div class="card">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Sistema bibliotecario</h5>
+                                    <p class="card-text">Proyecto WindowsForm que simula el registro de libros usando la serialización y deserialización JSON.</p>
+                                        <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12 mt-3">
+                                            <a href="https://github.com/ferdyamc/Sistema-de-registro-bibliotecario" class="btn btn-dark" target="_blank">GitHub</a>
+                                            <button class="btn btn-info d-block mt-2 ver-mas"><i class="fa-regular fa-eye text-light"></i></button>
+                                            </div>
+                                        <div class="col-lg-7 col-md-7 co-lsm-12  mt-3 mt-lg-3 mt-md-2 mt-sm-2 box-img-proyect">
+                                                <img src="Recursos/Img/SistemBibliotecario.jpg" class="img-proyect" width="100%" height="100%"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </article>
+                        <article class="rounded-2 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Estructuras de datos</h5>
+                                    <p class="card-text">Ejercicio windowsform que muestra el funcionamiento de las estructuras de datos (pilas, listas y colas).</p>
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12 mt-3">
+                                            <a href="https://github.com/ferdyamc/Estructuras-de-datos" class="btn btn-dark" target="_blank">GitHub</a>
+                                            <button class="btn btn-info d-block mt-2 ver-mas"><i class="fa-regular fa-eye text-light"></i></button>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 co-lsm-12  mt-3 mt-lg-3 mt-md-2 mt-sm-2 box-img-proyect">
+                                            <img src="Recursos/Img/EstructurasDeDatos.jpg" class="img-proyect" width="100%" height="100%"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="rounded-2 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Modulo admin</h5>
+                                    <p class="card-text">Actualización del módulo administrativo en "MVC .NET" para la plataforma AVARMS.</p>
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12 mt-3">
+                                            <a href="https://github.com/ferdyamc/ModuloAdmin" class="btn btn-dark" target="_blank">GitHub</a>
+                                            <button class="btn btn-info d-block mt-2 ver-mas"><i class="fa-regular fa-eye text-light"></i></button>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 co-lsm-12  mt-3 mt-lg-3 mt-md-2 mt-sm-2 box-img-proyect">
+                                            <img src="Recursos/Img/ModuloAdmin.jpg" class="img-proyect" width="100%" height="100%"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="rounded-2 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Login-Home SIGMA</h5>
+                                    <p class="card-text">Proyecto SIGMA para la agencia nacional minera de antioquia (Gobernación de antioquia)</p>
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12 mt-3">
+                                            <a href="https://github.com/ferdyamc/Template-frontend-Sigma" class="btn btn-dark" target="_blank">GitHub</a>
+                                            <button class="btn btn-info d-block mt-2 ver-mas"><i class="fa-regular fa-eye text-light"></i></button>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 co-lsm-12  mt-3 mt-lg-3 mt-md-2 mt-sm-2 box-img-proyect">
+                                            <img src="Recursos/Img/SIGMA2.jpg" class="img-proyect" width="100%" height="100%"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="rounded-2 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Login brava</h5>
+                                    <p class="card-text">Proyecto para actualización del front-end de plataforma web brava.</p>
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-12 mt-3">
+                                            <a href="https://github.com/ferdyamc/Brava_demo" class="btn btn-dark" target="_blank">GitHub</a>
+                                            <button class="btn btn-info d-block mt-2 ver-mas"><i class="fa-regular fa-eye text-light"></i></button>
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 co-lsm-12  mt-3 mt-lg-3 mt-md-2 mt-sm-2 box-img-proyect">
+                                            <img src="Recursos/Img/brava-demo.jpg" class="img-proyect" width="100%" height="100%"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <div class="box-btn d-flex justify-content-center"><button class="d-block" id="btnVermasProyectos">Ver más</button></div>
+                    <hr class="" style="color:#D9D9D9" id="Section-Experiencia"/>
+                </div>
+            </div>
+            
+            <!--LightBox-->
+            <div class="position-fixed top-0 bg-dark border-0" id="lightbox" style="width:100vw;height:100vh;left:0;z-index:3;">
+                <div class="position-relative d-flex justify-content-center" style="width:100%;height:100%;">
+                    <button class=" btn btn-info rounded-circle text-light position-absolute" style="right:50px;top:50px;" id="btn-out-lbx">X</button>
+                    <img src="/Recursos/Img/Andrés.jpg" style="width:70vw;height:70vh;" id="imgLbx" />
+                </div>
+            </div>
+            
+            <!--Experiencia-->
+            <div class="row">
+                <div class="col-lg-9 offset-lg-3 col-md-12 offset-md-0 col-sm-12 offset-sm-0 ">
+                    <h2 style="font-size:16px;" class="mb-3">Experiencia</h2>
+                    <section class="rounded-2 d-flex flex-wrap mt-5 mb-3 justify-content-between">
+                        <ul class="d-flex flex-lg-row flex-xxl-row flex-xl-row flex-md-row flex-sm-column flex-column" style="width:80%;">
+                            <li>
+                                <h3 style="font-size:14px; font-weight:bold" class="text-center mb-3">Desarrollo</h3>
+                                <p style="width:150px;" class="text-center">Conocimientos y experiencia en desarrollo web. Proyectos desafiantes, diseño y desarrollo de sitios interactivos. Lenguajes: HTML, CSS, JavaScript. Frameworks: Bootstrap y demás. Colaboración con equipos UX/UI. Pasión por el desarrollo web.</p>
+                            </li>
+                            <li>
+                                <h3 style="font-size:14px; font-weight:bold" class="text-center mb-3">Diseño</h3>
+                                <p style="width:150px;" class="text-center">Experiencia en diseño de interfaces, logotipos, folletos, infografías y diseños web. Uso de Photoshop, Illustrator y XD. Colaboración con equipos de desarrollo. Pasión por el diseño y atención al detalle para soluciones visuales impactantes y atractivas.</p>
+                            </li>
+                            <li>
+                                <h3 style="font-size:14px; font-weight:bold" class="text-center mb-3">Multimedia</h3>
+                                <p style="width:150px;" class="text-center">Experiencia en multimedia. Proyectos variados: videos, animaciones, presentaciones. Software: Premiere, After Effects, FL Studio. Colaboración con equipos creativos y técnicos. Pasión por contenido multimedia cautivador e innovador.</p>
+                            </li>
+            
+                        </ul>
+            
+                    </section>
+                    <hr class="" style="color:#D9D9D9" id="Section-Contacto"/>
+                </div>
+            </div>
+            
+            <!--Contacto-->
+            <div class="row" >
+                <div class="col-lg-9 offset-lg-3 col-md-12 offset-md-0 col-sm-12 offset-sm-0">
+                    <h2 style="font-size:16px;" class="mb-3">Contacto</h2>
+                    <section class="rounded-2 d-flex flex-lg-row flex-xxl-row flex-xl-row flex-md-row flex-sm-column flex-column mt-5 mb-3 justify-content-between col-12">
+                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-xs-12 col-12">
+                            <form class="" style="height:100%;">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombres y apellidos">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                                </div>
+                                <div class="">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-dark col-12 mt-3">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-xs-12 col-12 mt-0">
+                            <div class="p-3 bg-dark rounded-2 texto-contacto">
+                                <p class="text-center text-light" >
+                                    ¡Si estás buscando un profesional apasionado por el diseño y desarrollo web,
+                                    comprometido con la calidad y la innovación, ¡no dudes en contactarme!
+                                    Estoy dispuesto a enfrentar nuevos desafíos y aportar mi experiencia y
+                                    habilidades en tus proyectos!
+                                </p>
+                            </div>
+                            <p class="mb-0 mt-2 text-center"><i class="fa-solid fa-envelope"></i>   ferdyamc.dev@gmail.com</p>
+                            <p class="mb-0 mt-2 text-center"><i class="fa-solid fa-phone"></i>   320677717</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <!--Btn Hoja de vida-->
+    <a href="Recursos/PDF/HojaDeVida.pdf" class="position-fixed rounded-2 border-0 text-light bg-success text-center btn-hojavida" download>Descargar<br />hoja de vida</a>
+
+    <!--Footer-->
+    <footer class="border-top position-relative footer text-muted" style="height:7vh;">
+            <p class="text-center">&copy; Todos los derechos reservados.</p>
+    </footer>
+
+    <!--Scripts JS-->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="bootstrap-5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="js/Site.js" ></script>  
+</body>
+</html>
